@@ -1,0 +1,184 @@
+  
+{% extends 'base.html' %}
+{% block title %} Home  {% endblock %}
+{% block content %}
+{% load static %}
+
+	<!-- banner -->
+	<div class="slider">
+		<div class="callbacks_container">
+			<ul class="rslides callbacks callbacks1" id="slider4">
+				<li>
+					<div class="banner-top1">
+						<div class="banner-info_agile_w3ls">
+							<div class="container">
+								<h3>Medical services that you
+									<span>can trust</span>
+								</h3>
+								<p class="mt-3 mb-md-5 mb-3">Our unwavering dedication to medical excellence drives us to deliver exceptional care and outcomes, day after day.</p>
+								</a>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="banner-top2">
+						<div class="banner-info_agile_w3ls">
+							<div class="container">
+								<h3>Medical excellence
+									<span>every day</span>
+								</h3>
+								<p class="mt-3 mb-md-5 mb-3">Embracing a culture of continuous improvement, we pursue medical excellence daily, setting new standards in healthcare.</p>
+								</a>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="banner-top3">
+						<div class="banner-info_agile_w3ls">
+							<div class="container">
+								<h3>The Hospital of the
+									<span>future, today</span>
+								</h3>
+								<p class="mt-3 mb-md-5 mb-3">At the forefront of innovation, we bring the future of healthcare to the present, pioneering groundbreaking advancements and patient-centric solutions.</p>
+								</a>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- //banner -->
+	<div class="clearfix"></div>
+
+	<!-- banner bottom -->
+	<div class="banner-bottom py-5">
+		<div class="d-flex container py-xl-3 py-lg-3">
+			<div class="banner-left-bottom-w3ls offset-lg-2 offset-md-1">
+				<h6 class="text-white">What we have?</h6>
+				<h3 class="text-white my-3">High professional doctors</h3>
+				<p>All specialists have extensive practical experience and regularly training courses in educational centers of the
+					world</p>
+			</div>
+			<div class="button">
+				<a href="{% url 'doctor' %}" class="w3ls-button-agile">Read More
+					<i class="fas fa-hand-point-right"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- //banner bottom -->
+
+	
+
+	<!-- services -->
+	<div class="why-choose-agile pt-5" id="services">
+		<div class="container pt-xl-5 pt-lg-3">
+			<div class="w3ls-titles text-center mb-5">
+				<h3 class="title">Our Best Services</h3>
+				<span>
+					<i class="fas fa-user-md"></i>
+				</span>
+				<p class="mt-2">Discover excellence in every service we offer, tailored to meet your unique healthcare needs with precision and care.</p>
+			</div>
+			<div class="row why-choose-agile-grids-top">
+				<div class="col-lg-4 agileits-w3layouts-grid">
+					<div class="row wthree_agile_us">
+						<div class="col-3 agile-why-text p-0 text-right">
+							<div class="wthree_features_grid">
+								<i class="fas fa-user-md"></i>
+							</div>
+						</div>
+						<div class="col-9 agile-why-text-2">
+							<h4 class="text-dark font-weight-bold mb-3">General health care</h4>
+							<p>Comprehensive healthcare solutions designed to address your primary medical concerns and promote overall well-being.</p>
+						</div>
+					</div>
+					<div class="row wthree_agile_us my-5">
+						<div class="col-3 agile-why-text p-0 text-right">
+							<div class="wthree_features_grid">
+								<i class="fas fa-syringe"></i>
+							</div>
+						</div>
+						<div class="col-9 agile-why-text-2">
+							<h4 class="text-dark font-weight-bold mb-3">Dental services</h4>
+							<p>Expert dental care encompassing preventive, restorative, and cosmetic treatments for optimal oral health and radiant smiles.</p>
+						</div>
+					</div>
+					<div class="row wthree_agile_us">
+						<div class="col-3 agile-why-text p-0 text-right">
+							<div class="wthree_features_grid">
+								<i class="fab fa-medrt"></i>
+							</div>
+						</div>
+						<div class="col-9 agile-why-text-2">
+							<h4 class="text-dark font-weight-bold mb-3">Medical Treatment</h4>
+							<p>Personalized medical interventions and therapeutic modalities delivered with compassion and expertise to restore health and vitality.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 agileits-w3layouts-grid img text-center">
+					<img src="{% static '' %}images/b3.png" alt=" " class="img-fluid" />
+				</div>
+				<div class="col-lg-4 agileits-w3layouts-grid">
+					<div class="row wthree_agile_us">
+						<div class="col-9 agile-why-text-2">
+							<h4 class="text-dark font-weight-bold mb-3">Cardiac Clinic</h4>
+							<p>Specialized cardiac care and diagnostic services to safeguard heart health and manage cardiovascular conditions effectively.</p>
+						</div>
+						<div class="col-3 agile-why-text p-0">
+							<div class="wthree_features_grid">
+								<i class="fas fa-medkit"></i>
+							</div>
+						</div>
+					</div>
+					<div class="row wthree_agile_us my-5">
+						<div class="col-9 agile-why-text-2">
+							<h4 class="text-dark font-weight-bold mb-3">Orthopedics</h4>
+							<p>Advanced orthopedic care for the diagnosis, treatment, and rehabilitation of musculoskeletal injuries and disorders.</p>
+						</div>
+						<div class="col-3 agile-why-text p-0">
+							<div class="wthree_features_grid">
+								<i class="fas fa-wheelchair"></i>
+							</div>
+						</div>
+					</div>
+					<div class="row wthree_agile_us">
+						<div class="col-9 agile-why-text-2">
+							<h4 class="text-dark font-weight-bold mb-3">Laboratory</h4>
+							<p>State-of-the-art diagnostic laboratory services offering precise and timely test results to support accurate diagnosis and treatment planning.</p>
+						</div>
+						<div class="col-3 agile-why-text p-0">
+							<div class="wthree_features_grid">
+								<i class="fas fa-hospital"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- services -->
+<div class="why-choose-agile pt-5" id="services">
+    <!-- Your existing services section content -->
+</div>
+<!-- //services -->
+
+<!-- Add some space between services and footer -->
+<div style="padding-bottom: 50px;"></div>
+<!-- This empty div will create a space of 50 pixels between your services section and the footer -->
+
+<!-- Footer section -->
+<footer>
+    <!-- Your footer content goes here -->
+</footer>
+
+	<!-- //services -->
+
+
+
+
+
+	{% endblock %}
